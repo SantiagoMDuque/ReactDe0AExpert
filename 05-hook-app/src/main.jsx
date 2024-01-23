@@ -12,9 +12,11 @@ import { Layout } from './05-useLayautEffect/Layout';
 import { Memorize } from './06-memos/Memorize';
 import { MemoHook } from './06-memos/MemoHook';
 import { CallBackHook } from './06-memos/CallBackHook';
+import { } from './08-reducer/intro-reducer'
+import { TodoApp } from './08-reducer/TodoApp';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     // <React.StrictMode>
-        <CallBackHook/>
+        <TodoApp/>
     // </React.StrictMode>
 ) 
