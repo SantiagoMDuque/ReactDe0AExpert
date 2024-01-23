@@ -28,4 +28,4 @@ const addTodoActcion = {
 
 todos = todoReducer( todos, addTodoActcion);
 
-console.log({state: todos});
+//console.log({state: todos});
