@@ -4,7 +4,13 @@ import { ImageGallery } from "../journal/components"
 
 export const NotaView = () => {
   return (
-    <Grid container direction='row' justifyContent='space-between' alignItems='center' sx={{ md: 1 }}>
+    <Grid 
+        className='animate__animated animate__faceIn animate__faster'
+        container 
+        direction='row' 
+        justifyContent='space-between' 
+        alignItems='center' 
+        sx={{ md: 1 }}>
         <Grid item>
             <Typography fontSize={ 39 } fontWeight='light'>28 de agosto, 2023</Typography>
         </Grid>
